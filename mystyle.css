@@ -1,7 +1,13 @@
 body{
-  background-color:black;
+  background-color:orange;
   color:white;
+  text-align:center;
 }
+
+.container{
+  margin:50px;
+}
+
 img{
   height: 200px;
 }
