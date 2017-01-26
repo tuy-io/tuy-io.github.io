@@ -1,0 +1,22 @@
+body{
+	background-color:darkblue;
+	text-align:center;
+}
+
+#container{
+	background-color:white;
+	margin:50px;
+	border-radius:25px;
+	padding:10px;
+}
+
+#greeting{
+
+}
+#content{
+	
+}
+
+img{
+	height:250px;	
+}
