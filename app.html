@@ -1,42 +1,38 @@
 <html>
-  <head>
-    <title>App</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-    <script src="myscripts.js"></script>
-  </head>
-  <body>
-    <div id="container">
-			<div id="navigation">
-				<a href="index.html"> Home </a> | 
-				<a href="aboutme.html"> About Me </a> |
-        <a href="app.html"> App </a>
+	
+	<head>
+		
+		<title>Flash Card App!</title>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<script src="myscripts.js" ></script>
+	</head>
+	<body>
+		<div id="container">
+				<div id="navigation">
+					<a href="index.html"> Home </a> | 
+					<a href="aboutme.html"> About Me </a> |
+					<a href="app.html"> App </a>
 			</div>
-      <div id="flashCards">
-        <p>
-          <input type="button" value="New Card" onclick="getNumbers()" />
-        </p>
-        <p id="operand1">
-          0
-        </p>
-        <p>
-          +
-        </p>   
-        <p id="operand2">
-          0
-        </p>
-        <p>
-          ________________
-        </p>
-        <p>
-          <input type="text" value="0" id="userAnswer"/>
-        </p>
-        <p>
-          <input type="button" value="Check Answer" onclick="checkAnswer()" />
-        </p>
-        <p id="results">
-          
-        </p>
-      </div>      
-    </div>
-  </body>
+			<div id="flashCards">
+				<p>
+					<input type="button" onclick="getNumbers()" value="Get Card"/>
+				</p>
+				<p>
+					<input type="text" id="operand1" value="0" />
+				</p>
+				<p>
+					+
+				</p>
+				<p>
+					<input type="text" id="operand2" value="0" />
+				</p>
+				<p>
+					____________________
+				</p>
+				<p>
+					<input type="text" id="userAnswer" /> 
+				</p>
+			</div>
+		</div>
+	</body>
 </html>
