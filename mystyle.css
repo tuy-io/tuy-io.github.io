@@ -1,22 +1,11 @@
-body{
-	background-color:darkblue;
+body {
 	text-align:center;
 }
 
 #container{
-	background-color:white;
-	margin:50px;
+	background-color:purple; 
+	margin:25px;
 	border-radius:25px;
-	padding:10px;
-}
-
-#greeting{
-
-}
-#content{
-	
-}
-
-img{
-	height:250px;	
+	padding:25px; 
+	color: pink;
 }
